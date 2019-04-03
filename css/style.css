@@ -4,7 +4,7 @@ body {
 
 .mainHeader {
     height: 1300px;
-    background-image: url("/pictures/background.jpg");
+    background-image: url("../pictures/background.jpg");
     background-size: cover;
     background-position: 100% 10%;
     background-attachment: fixed;
