@@ -12,12 +12,12 @@ body {
 
 .mainNav {
     float: right;
-    margin-right: 75px; 
+    margin-right: 75px;
 }
 
 .mainNav_links {
     margin-top: 10px;
-    
+
 }
 
 .mainNav_links li {
@@ -73,8 +73,8 @@ body {
 }
 
 .service1 {
-    background-color: rgba(0, 0, 0,0.9 ); 
-  
+    background-color: rgba(0, 0, 0,0.9 );
+
 }
 
 .service1_text {
@@ -95,12 +95,12 @@ body {
     border-radius: 700px;
     padding-top: 40px;
     padding-bottom: 40px;
-   
-    
+
+
 }
 
 .service2 {
-    background-color: rgba(0, 0, 0,0.9 );   
+    background-color: rgba(0, 0, 0,0.9 );
 }
 
 .service2_pic {
@@ -119,7 +119,7 @@ body {
     font-size: 90%;
     padding-left: 10% ;
     color: white;
-    
+
 }
 
 .contact {
@@ -135,8 +135,8 @@ body {
     padding-top: 100px;
     text-align: center;
 
-}   
-    
+}
+
 .contact_links li {
     display:inline;
     letter-spacing: 20px;
@@ -149,15 +149,15 @@ body {
 .intress {
     height: 100px;
     text-align: center;
-    background-color: rgba(0, 0, 0,0.9 );   
+    background-color: rgba(0, 0, 0,0.9 );
     padding-top: 50px;
     color: white;
 }
 
-.pimg2 { 
+.pimg2 {
 
     height: 1000px;
-    background-image: url(https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/handmade_pic.jpg?raw=true);
+    background-image: url("https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/handmade_pic.jpg?raw=true");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -165,20 +165,8 @@ body {
 
 
 .pimg1 {
-    background-image: url(https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/henna_draw.jpg?raw=true);
+    background-image: url("https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/henna_draw.jpg?raw=true");
     height: 1000px;
     background-size: cover;
     background-attachment: fixed;
 }
-
-
-
-
-
-
-
-
-
-
-
-
