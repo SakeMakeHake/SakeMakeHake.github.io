@@ -157,7 +157,7 @@ body {
 .pimg2 {
 
     height: 1000px;
-    background-image: url("https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/handmade_pic.jpg?raw=true");
+    background-image: url("pictures/handmade_pic.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -165,7 +165,7 @@ body {
 
 
 .pimg1 {
-    background-image: url("https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/henna_draw.jpg?raw=true");
+    background-image: url("pictures/henna_draw.jpg");
     height: 1000px;
     background-size: cover;
     background-attachment: fixed;
