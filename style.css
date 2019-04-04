@@ -4,7 +4,7 @@ body {
 
 .mainHeader {
     height: 1300px;
-    background-image: url("https://github.com/SakeMakeHake/SakeMakeHake.github.io/blob/master/pictures/background.jpg?raw=true");
+    background-image: url(./pictures/background.jpg);
     background-size: cover;
     background-position: 100% 10%;
     background-attachment: fixed;
@@ -79,12 +79,11 @@ body {
 
 .service1_text {
     font-family: 'Muli', sans-serif;
-    padding-top: 55px;
-    padding-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: justify;
     font-size: 90%;
     padding-right: 70px;
-    margin-bottom: -20%;
     color: white;
 }
 
@@ -93,8 +92,8 @@ body {
     width: 75%;
     float: right;
     border-radius: 700px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 
 }
@@ -107,8 +106,8 @@ body {
     width: 75%;
     float: left;
     border-radius: 700px;
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .service2_text {
@@ -125,21 +124,28 @@ body {
 .contact {
     background-image: url("pictures/tokyo_night.JPG");
     background-position: 0% 20%;
-    height: 300px;
+    height: 500px;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .contact_links {
     font-size: 300%;
-    padding-top: 100px;
     text-align: center;
+}
 
+.contact_heading {
+    padding-top: 50px;
+    font-family: 'Muli' , sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    
 }
 
 .contact_links li {
-    display:inline;
-    letter-spacing: 20px;
+    padding-left: 10px;
+    display:inline-block;
 }
 
 .contact_links a {
@@ -169,4 +175,13 @@ body {
     height: 1000px;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.contact_owner {
+    text-align: center;
+}
+
+.contact_picture {
+    border-radius: 800px;
+    border: 4px solid rgb(255, 255, 255);
 }
