@@ -20,14 +20,12 @@ body {font-size: 20px;
 }
 
 @media screen and (max-width: 1000px) {
-    .main_text {
-        display: none;
+    .contact_owner {
+      display: none;
     }
 }
 
-.main_text_container {
-    padding: 15%;
-}
+
 
 .main_owner {
     font-family: 'Muli', sans-serif; 
@@ -35,8 +33,14 @@ body {font-size: 20px;
 }
 
 .main_speech {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 60%;
+    margin-left: -29%;
+    margin-top: -6%;
     font-family: 'Muli', sans-serif;  
-    font-size: 150%;
+    font-size:1.3vw;
     color: rgba(255, 255, 255, 0.6); 
 
 }
@@ -229,7 +233,7 @@ body {font-size: 20px;
 }
 
 .footer_contact_methods li {
-    font-size: 100%;
+    font-size:1.3vw;
 }
 
 .footer_contact_methods li .fab, .footer_contact_methods li .fas {
