@@ -19,6 +19,12 @@ body {font-size: 20px;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (max-width: 1000px) {
+    .main_text {
+        display: none;
+    }
+}
+
 .main_text_container {
     padding: 15%;
 }
@@ -66,7 +72,6 @@ body {font-size: 20px;
 
 .slogan {
     display: inline-block;
-    padding-top: 150px;
     text-shadow: 0px 0px 10px black;
     opacity: 0.6;
     line-height: 310%;
@@ -114,7 +119,11 @@ body {font-size: 20px;
 }
 
 
-
+@media screen and (max-width: 700px) {
+    .service1_pic, .service2_pic {
+        display: none;
+    }
+}
 
 .service1_pic, .service2_pic {
     width: 250px;
