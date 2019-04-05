@@ -219,7 +219,7 @@ body {font-size: 20px;
 .footer_text {
     color: white;
     margin-top: 0;
-    font-size: 100;
+    font-size: 2vw;
 }
 
 .footer_contact_methods {
@@ -237,7 +237,7 @@ body {font-size: 20px;
 }
 
 .footer_contact_methods li .fab, .footer_contact_methods li .fas {
-    font-size: 180%;
+    font-size:2vw;
 }
 
 .disc hr {
